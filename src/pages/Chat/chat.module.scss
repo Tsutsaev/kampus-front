@@ -1,0 +1,35 @@
+.chat {
+    padding: 10px;
+
+    .chat_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #B4ABAB;
+    
+        .chat_about {
+            display: flex;
+            align-items: center;
+            .logo svg{
+                width: 50px;
+            }
+            .logo {
+                margin-right: 15px;
+            }
+            .chat_name_online {
+                font-size: 10px;
+            }
+        }
+        .connection {
+            
+            .connenct {
+                display: flex;
+            }
+            .connenct svg {
+                width: 30px;
+                height: 30px;
+                margin-right: 10px;
+            }
+        }
+    }
+}

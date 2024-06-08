@@ -1,0 +1,35 @@
+@import url('https://cdn.syncfunction.com/ej2/20.3.56/bootstrap5.css');
+@import url('https://www.syncfusion.com/downloads/essential-js2');
+$b-green: rgb(201, 201, 201);
+$w-green: #6d9773;
+$b-blue: #001427;
+$orange: #bb8a52;
+$yellow: #ffba00;
+
+.d {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body::-webkit-scrollbar {
+  width: 0px;
+}
+button {
+  border: none;
+}
+
+li:hover,
+span:hover,
+p:hover,
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+  cursor: default;
+}

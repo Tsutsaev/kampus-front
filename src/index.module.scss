@@ -1,0 +1,25 @@
+$basic: #8a33fd;
+$secondary: #f6f6f6;
+$third: #3c4242;
+$lines: #bebcbd;
+$text-silver: #807d7e;
+$black-silver: #2a2f2f;
+
+
+$header-size: 90px;
+body {
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  width: 3px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: $basic; /* цвет бегунка */
+  border-radius: 20px; /* округлось бегунка */
+  border: 3px solid $basic; /* отступ вокруг бегунка */
+}
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+}

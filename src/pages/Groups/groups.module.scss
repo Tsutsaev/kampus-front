@@ -1,0 +1,31 @@
+.groups_main {
+    background-color: white;
+    border-radius: 9px;
+    margin: 20px;
+
+    .groups_title {
+        padding: 10px;
+    }
+    .groups {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    
+        .group {
+           width: 85%;
+            .chat_line_top {
+                display: flex;
+                justify-content: space-between;
+            }
+            .chat_line_bottom {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+    .groups:not(:last-of-type) {
+        border-bottom: 1px solid #B4ABAB;
+
+    } 
+}
